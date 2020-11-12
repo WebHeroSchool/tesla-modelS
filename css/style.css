@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:51px;
+    margin: 24 60 0 43;
+}
+.preview{
+    height: 825px;
+}
+.feature{
+    position: relative;
+    height: 900px;
+}
+.description{
+    height: 900px;
+}
+
+.preview__background{
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 57px auto 0px auto;
+    z-index: -1;
+}
+.preview__model{
+    margin: 0;
+}
+.preview__model-slogan{
+    margin: 0;
+}
+.preview__tesla-image{
+    display: block;
+    width: 67.22%;
+    margin: 144px auto 0px auto;
+    padding-right: 5.14%;
+}
+
+.feature__model{
+    margin: 0;
+    position: absolute;
+}
+.feature__image{
+    position: absolute;
+    bottom: 0;
+    width: 88.4%;
+    z-index: -1;
+}
+.features_panel{
+    margin: 0px 0px 0px 69.44%;
+    width: 30.56%;
+    height: 100%;
+    background: rgb(229, 25, 55);
+}
+.feature__description-title{
+    margin: 0;
+}
