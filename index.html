@@ -3,22 +3,24 @@
     <meta charset="utf-8">
     <title>Tesla Inc.</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
-<body>
+<body class="wrap">
 <header class="header">
-    <span class="header__logo">
-      <img src="img/logo.png" alt="Логотип Tesla">
+    <span class="header__logo-wrap">
+      <img class="header__logo" src="img/logo.png" alt="Логотип Tesla">
     </span>
     <nav class="header__menu">
-        <a> Model S </a>
-        <a> Model X </a>
-        <a> Model 3</a>
-        <a> Roadster</a>
-        <a> Energy</a>
+        <a class="header__link" href=#> Model S </a>
+        <a class="header__link" href=#> Model X </a>
+        <a class="header__link" href=#> Model 3</a>
+        <a class="header__link" href=#> Roadster</a>
+        <a class="header__link" href=#> Energy</a>
     </nav>
     <nav class="header__menu header__menu_right">
-        <a> Магазин</a>
-        <a> Войти</a>
+        <a class="header__link" href=#> Магазин</a>
+        <a class="header__link" href=#> Войти</a>
+        <span class="header__burger"></span>
     </nav>
 </header>
 <main>
@@ -29,24 +31,24 @@
         <img class="preview__tesla-image" src="img/Model_S.png" alt="">
         <div class="preview__characteristics">
             <div class="preview__characteristic">
-                <img src="img/scale.png" alt="">
+                <img class="preview__icon" src="img/scale.png" alt="">
                 <span class="preview__characteristic-value">2,7</span>
                 <span class="preview__characteristic-unit">сек</span>
                 <span class="preview__characteristic-description">0-100 км/ч</span>
             </div>
             <div class="preview__characteristic">
-                <img src="img/road.png" alt="">
+                <img class="preview__icon"  src="img/road.png" alt="">
                 <span class="preview__characteristic-value">632</span>
                 <span class="preview__characteristic-unit">км</span>
                 <span class="preview__characteristic-description">запас хода</span>
             </div>
         </div>
         <div class="preview__test-drive">
-            <img src="img/steering-wheel.png" alt="">
-            <span>Тест драйв</span>
+            <img class="preview__icon"  src="img/steering-wheel.png" alt="">
+            <span class="preview__test-drive-text">Тест драйв</span>
             <span class="order">Заказать</span>
         </div>
-        <img src="img/Vector.png" alt="">
+        <img class="preview_vector"  src="img/Vector.png" alt="">
     </div>
     <div class="feature">
         <h1 class="feature__model">Model S</h1>
@@ -58,7 +60,7 @@
             </div>
             <div class="features__characteristic">
                 <div class="features__characteristic-image">
-                    <img src="img/screen.png" alt="">
+                    <img class="features__icon" src="img/screen.png" alt="">
                 </div>
                 <span class="features__characteristic-value">17</span>
                 <span class="features__characteristic-unit">дюймов</span>
@@ -66,14 +68,14 @@
             </div>
             <div class="features__characteristic">
                 <div class="features__characteristic-image">
-                    <img src="img/wifi.png" alt="">
+                    <img class="features__icon" src="img/wifi.png" alt="">
                 </div>
                 <span class="features__characteristic-unit">Беспроводное обновление ПО</span>
                 <span class="features__characteristic-description">Повышенная функциональность</span>
             </div>
             <div class="features__characteristic">
                 <div class="features__characteristic-image">
-                    <img src="img/bag.png" alt="">
+                    <img class="features__icon" src="img/bag.png" alt="">
                 </div>
                 <span class="features__characteristic-value">894</span>
                 <span class="features__characteristic-unit">литра</span>
