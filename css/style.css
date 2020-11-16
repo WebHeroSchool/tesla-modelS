@@ -2,6 +2,7 @@
   margin: 0 auto;
   font-family: montserrat, sans-serif;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -10,9 +11,11 @@
   padding-top: 24px;
   margin: 0 60px 58px 0;
 }
+
 .header__logo {
   padding-left: 42px;
 }
+
 .header__menu {
   display: flex;
   justify-content: space-between;
@@ -20,29 +23,37 @@
   font-weight: 600;
   font-size: 15px;
 }
+
 .header__menu_right {
   min-width: 200px;
 }
+
 .header__link {
-  color:black;
+  color: black;
   text-decoration: none;
 }
+
 .header__link:visited {
   color: black;
 }
+
 .header__link:hover {
 
 }
+
 .preview {
   height: 767px;
 }
+
 .feature {
   position: relative;
   height: 900px;
 }
+
 .description {
   height: 900px;
 }
+
 .preview__background {
   position: absolute;
   display: block;
@@ -50,6 +61,7 @@
   margin: 0 auto;
   z-index: -1;
 }
+
 .preview__model {
   margin: 0;
   text-align: center;
@@ -58,12 +70,14 @@
   font-size: 90px;
   line-height: 93px;
 }
+
 .preview__model-slogan {
   margin: 0;
   text-align: center;
   font-weight: 500;
   font-size: 15px;
 }
+
 .preview__tesla-image {
   display: block;
   width: 67.22%;
@@ -76,18 +90,21 @@
   margin: 0;
   position: absolute;
 }
+
 .feature__image {
   position: absolute;
   bottom: 0;
   width: 88.4%;
   z-index: -1;
 }
+
 .features_panel {
   margin: 0 0 0 69.44%;
   width: 30.56%;
   height: 100%;
   background: rgb(229, 25, 55);
 }
+
 .feature__description-title {
   margin: 0;
 }
