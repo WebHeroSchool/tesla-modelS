@@ -1,143 +1,145 @@
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <title>Tesla Inc.</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Tesla Inc.</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
 </head>
-<body>
+<body class="wrap">
 <header class="header">
-    <span class="header__logo">
-      <img src="img/logo.png" alt="Логотип Tesla">
+    <span class="header__logo-wrap">
+      <img class="header__logo" src="img/logo.png" alt="Логотип Tesla">
     </span>
-    <nav class="header__menu">
-        <a> Model S </a>
-        <a> Model X </a>
-        <a> Model 3</a>
-        <a> Roadster</a>
-        <a> Energy</a>
-    </nav>
-    <nav class="header__menu header__menu_right">
-        <a> Магазин</a>
-        <a> Войти</a>
-    </nav>
+  <nav class="header__menu">
+    <a class="header__link" href=#> Model S </a>
+    <a class="header__link" href=#> Model X </a>
+    <a class="header__link" href=#> Model 3</a>
+    <a class="header__link" href=#> Roadster</a>
+    <a class="header__link" href=#> Energy</a>
+  </nav>
+  <nav class="header__menu header__menu_right">
+    <a class="header__link" href=#> Магазин</a>
+    <a class="header__link" href=#> Войти</a>
+    <span class="header__burger"></span>
+  </nav>
 </header>
 <main>
-    <div class="preview">
-        <img class="preview__background" src="img/Tesla-background.png" alt="">
-        <h1 class="preview__model">Model S</h1>
-        <p class="preview__model-slogan">Добро пожаловать в будущее!</p>
-        <img class="preview__tesla-image" src="img/Model_S.png" alt="">
-        <div class="preview__characteristics">
-            <div class="preview__characteristic">
-                <img src="img/scale.png" alt="">
-                <span class="preview__characteristic-value">2,7</span>
-                <span class="preview__characteristic-unit">сек</span>
-                <span class="preview__characteristic-description">0-100 км/ч</span>
-            </div>
-            <div class="preview__characteristic">
-                <img src="img/road.png" alt="">
-                <span class="preview__characteristic-value">632</span>
-                <span class="preview__characteristic-unit">км</span>
-                <span class="preview__characteristic-description">запас хода</span>
-            </div>
-        </div>
-        <div class="preview__test-drive">
-            <img src="img/steering-wheel.png" alt="">
-            <span>Тест драйв</span>
-            <span class="order">Заказать</span>
-        </div>
-        <img src="img/Vector.png" alt="">
+  <div class="preview">
+    <img class="preview__background" src="img/Tesla-background.png" alt="">
+    <h1 class="preview__model">Model S</h1>
+    <p class="preview__model-slogan">Добро пожаловать в будущее!</p>
+    <img class="preview__tesla-image" src="img/Model_S.png" alt="">
+    <div class="preview__characteristics">
+      <div class="preview__characteristic">
+        <img class="preview__icon" src="img/scale.png" alt="">
+        <span class="preview__characteristic-value">2,7</span>
+        <span class="preview__characteristic-unit">сек</span>
+        <span class="preview__characteristic-description">0-100 км/ч</span>
+      </div>
+      <div class="preview__characteristic">
+        <img class="preview__icon"  src="img/road.png" alt="">
+        <span class="preview__characteristic-value">632</span>
+        <span class="preview__characteristic-unit">км</span>
+        <span class="preview__characteristic-description">запас хода</span>
+      </div>
     </div>
-    <div class="feature">
-        <h1 class="feature__model">Model S</h1>
-        <img class="feature__image" src="img/feature_background.png" alt="">
-        <div class="features_panel">
-            <div class="feature__description">
-                <h2 class="feature__description-title">Будущее вождения</h2>
-                <p class="feature__description-text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
-            </div>
-            <div class="features__characteristic">
-                <div class="features__characteristic-image">
-                    <img src="img/screen.png" alt="">
-                </div>
-                <span class="features__characteristic-value">17</span>
-                <span class="features__characteristic-unit">дюймов</span>
-                <span class="features__characteristic-description">Большой дисплей</span>
-            </div>
-            <div class="features__characteristic">
-                <div class="features__characteristic-image">
-                    <img src="img/wifi.png" alt="">
-                </div>
-                <span class="features__characteristic-unit">Беспроводное обновление ПО</span>
-                <span class="features__characteristic-description">Повышенная функциональность</span>
-            </div>
-            <div class="features__characteristic">
-                <div class="features__characteristic-image">
-                    <img src="img/bag.png" alt="">
-                </div>
-                <span class="features__characteristic-value">894</span>
-                <span class="features__characteristic-unit">литра</span>
-                <span class="features__characteristic-description">Объем грузового пространства</span>
-            </div>
-            <div class="info-order info-order_side_feature">
-                <div class="info-icon">i</div>
-                <span class="info">Узнать больше</span>
-                <span class="order order_color_invert">Заказать</span>
-            </div>
-        </div>
+    <div class="preview__test-drive">
+      <img class="preview__icon"  src="img/steering-wheel.png" alt="">
+      <span class="preview__test-drive-text">Тест драйв</span>
+      <span class="order">Заказать</span>
     </div>
-    <div class="description">
-        <h1 class="description__model">Model S</h1>
-        <img class="description__image" src="img/description_ModelS.png" alt="">
-        <span class="description__note description__note_position_left">Защита от удара спереди</span>
-        <span class="description__note description__note_position_right">Защита от удара сбоку</span>
-        <span class="description__note description__note_position_bottom">Минимальный риск перевернуться в аварии</span>
-        <span class="description__line description__line_position_left"></span>
-        <span class="description__circle description__circle_position_left"></span>
-        <span class="description__line description__line_position_right"></span>
-        <span class="description__circle description__circle_position_right"></span>
-        <span class="description__line description__line_position_bottom"></span>
-        <span class="description__circle description__circle_position_bottom"></span>
-        <div class="description__panel">
-            <h1 class="description__title description__title_position_top">Самый безопасный автомобиль в мире</h1>
-            <p class="description__description">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
-            <h1 class="description__title description__title_position_middle">Оценка защиты: </h1>
-            <table class="description__raiting">
-                <tr>
-                    <td class="description__side">Спереди</td>
-                    <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
-                </tr>
-                <tr>
-                    <td class="description__side">Сбоку</td>
-                    <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
-                </tr>
-                <tr>
-                    <td class="description__side">Сбоку <sub>(Стойка)</sub></td>
-                    <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
-                </tr>
-                <tr>
-                    <td class="description__side">Водитель</td>
-                    <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
-                </tr>
-                <tr>
-                    <td class="description__side">Пассажир</td>
-                    <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
-                </tr>
-            </table>
-            <div class="description__guard">
-                <img class="description__guard-image" src="img/description_guard.png" alt="">
-                <span class="description__guard-text">5 звезд</span>
-                <span class="description__guard-text description__guard-text_small">безопасности</span>
-            </div>
-            <div class="info-order info-order_side_description">
-                <div class="info-icon">i</div>
-                <span class="info">Узнать больше</span>
-                <span class="order order_color_white">Заказать</span>
-            </div>
+    <img class="preview_vector"  src="img/Vector.png" alt="">
+  </div>
+  <div class="feature">
+    <h1 class="feature__model">Model S</h1>
+    <img class="feature__image" src="img/feature_background.png" alt="">
+    <div class="features_panel">
+      <div class="feature__description">
+        <h2 class="feature__description-title">Будущее вождения</h2>
+        <p class="feature__description-text">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+      </div>
+      <div class="features__characteristic">
+        <div class="features__characteristic-image">
+          <img class="features__icon" src="img/screen.png" alt="">
         </div>
-        <span class="description__copyright">Разработано в</span>
-        <img class="description__WebHero-logo" src="img/WebHero.png" alt="">
+        <span class="features__characteristic-value">17</span>
+        <span class="features__characteristic-unit">дюймов</span>
+        <span class="features__characteristic-description">Большой дисплей</span>
+      </div>
+      <div class="features__characteristic">
+        <div class="features__characteristic-image">
+          <img class="features__icon" src="img/wifi.png" alt="">
+        </div>
+        <span class="features__characteristic-unit">Беспроводное обновление ПО</span>
+        <span class="features__characteristic-description">Повышенная функциональность</span>
+      </div>
+      <div class="features__characteristic">
+        <div class="features__characteristic-image">
+          <img class="features__icon" src="img/bag.png" alt="">
+        </div>
+        <span class="features__characteristic-value">894</span>
+        <span class="features__characteristic-unit">литра</span>
+        <span class="features__characteristic-description">Объем грузового пространства</span>
+      </div>
+      <div class="info-order info-order_side_feature">
+        <div class="info-icon">i</div>
+        <span class="info">Узнать больше</span>
+        <span class="order order_color_invert">Заказать</span>
+      </div>
     </div>
+  </div>
+  <div class="description">
+    <h1 class="description__model">Model S</h1>
+    <img class="description__image" src="img/description_ModelS.png" alt="">
+    <span class="description__note description__note_position_left">Защита от удара спереди</span>
+    <span class="description__note description__note_position_right">Защита от удара сбоку</span>
+    <span class="description__note description__note_position_bottom">Минимальный риск перевернуться в аварии</span>
+    <span class="description__line description__line_position_left"></span>
+    <span class="description__circle description__circle_position_left"></span>
+    <span class="description__line description__line_position_right"></span>
+    <span class="description__circle description__circle_position_right"></span>
+    <span class="description__line description__line_position_bottom"></span>
+    <span class="description__circle description__circle_position_bottom"></span>
+    <div class="description__panel">
+      <h1 class="description__title description__title_position_top">Самый безопасный автомобиль в мире</h1>
+      <p class="description__description">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
+      <h1 class="description__title description__title_position_middle">Оценка защиты: </h1>
+      <table class="description__raiting">
+        <tr>
+          <td class="description__side">Спереди</td>
+          <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
+        </tr>
+        <tr>
+          <td class="description__side">Сбоку</td>
+          <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
+        </tr>
+        <tr>
+          <td class="description__side">Сбоку <sub>(Стойка)</sub></td>
+          <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
+        </tr>
+        <tr>
+          <td class="description__side">Водитель</td>
+          <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
+        </tr>
+        <tr>
+          <td class="description__side">Пассажир</td>
+          <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td> <td class="description__star"></td>
+        </tr>
+      </table>
+      <div class="description__guard">
+        <img class="description__guard-image" src="img/description_guard.png" alt="">
+        <span class="description__guard-text">5 звезд</span>
+        <span class="description__guard-text description__guard-text_small">безопасности</span>
+      </div>
+      <div class="info-order info-order_side_description">
+        <div class="info-icon">i</div>
+        <span class="info">Узнать больше</span>
+        <span class="order order_color_white">Заказать</span>
+      </div>
+    </div>
+    <span class="description__copyright">Разработано в</span>
+    <img class="description__WebHero-logo" src="img/WebHero.png" alt="">
+  </div>
 </main>
 </body>
 </html>
